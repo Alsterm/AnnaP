@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8"/> 
+
+    <title>Пример Bootstrap</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery-1.2.6.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="animate.min.css"></script>
+
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+
+  <style>
+    div1 {
+      position: relative;
+      -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+      animation: mymove 5s infinite;
+  }
+
+  
+
+  
+  /* Standard syntax */
+  #div1 {
+      animation-timing-function: linear;
+  }
+
+ 
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+      from {
+          left: 0px;
+      }
+
+      to {
+          left: 300px;
+      }
+  }
+
+  /* Standard syntax */
+  @keyframes mymove {
+      from {
+          left: 0px;
+      }
+
+      to {
+          left: 300px;
+      }
+  }
+</style>
+<style>
+  div2 {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: relative;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-iteration-count: 5; /* Safari 4.0 - 8.0 */
+      -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: 5;
+      animation-direction: reverse;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+      0% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+      }
+
+      25% {
+          background-color: yellow;
+          left: 20px;
+          top: 0px;
+      }
+
+      50% {
+          background-color: blue;
+          left: 20px;
+          top: 20px;
+      }
+
+      75% {
+          background-color: green;
+          left: 0px;
+          top: 20px;
+      }
+
+      100% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+      }
+  }
+
+  /* Standard syntax */
+  @keyframes example {
+      0% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+      }
+
+      25% {
+          background-color: yellow;
+          left: 20px;
+          top: 0px;
+      }
+
+      50% {
+          background-color: blue;
+          left: 20px;
+          top: 20px;
+      }
+
+      75% {
+          background-color: green;
+          left: 0px;
+          top: 20px;
+      }
+
+      100% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+      }
+  }
+</style>
+
+  <style>
+        div3 {
+            
+            background: rgba(255, 255, 255, 0);
+            display: block;
+            width: auto;
+            height: auto;
+            -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 2s, transform 2s;
+        }
+
+            div3:hover {
+                width: auto;
+                height: auto;
+                -webkit-transform: rotate(360deg) ;
+                transform: rotate(360deg);
+            }
+              
+      #les8_ex1{
+    width:400px;
+    height:100px;
+    background:#666699;
+    border:1px solid #333366;
+    margin-bottom:20px;
+} </style></style>  
+  
+   
+ <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+
+  </head> 
+  <body>
+      
+      <div class="row">
+    
+        <div class="col-sm-6" style="background-color:rgb(255, 255, 255); padding-left: 20px;  position: relative;
+        cursor: pointer; " > <img id="logo" src="LogoHeader.png" ></div>
+    
+
+        <div class ="col-sm-6">
+          
+        <div class="col-sm-3 animate__animated animate__bounce" style="background-color:#ffffff"><h3>Home</h3></div>
+        <div class="col-sm-3" style="background-color:#ffffff" > <h3>Products</h3></div>
+        <div class="col-sm-3" style="background-color:#ffffff" ><h3>Services</h3></div>
+        <div class="col-sm-3" style="background-color:#ffffff" > <h3>Contact</h3></div>
+        </div>
+  </div>
+
+      
+      <div class="row">
+        <div class="slider">
+            <div class="arr1"> <img src="ArrowLeftSlider.png"  > </div>
+            <div class="arr2"> <img src="ArrowRightSlider.png" > </div>
+
+            <div class="slider-item">
+
+       
+        <div  class="slider-img"><img src="IPhoneSlider.png"> </div>        
+       <div class="slider-content" style="color: #ffffff;">  <h2>Lorem Ipsum is simply</h2> <br><h3>dummy text of the <br> printng&typesetting<br></h3> <br> <img src="ButtonHeader.png"></div>
+       
+    </div>
+        </div>
+      </div>
+
+      <br><br>
+      <div class="row">
+       <div class="col-sm-4 feature-item" style=" padding-left: 100px; text-align: center; " > <div3> <img  src="Product1.png" ></div3> <br><h3 style="color: blue;">Contary to popular</h3> <h4 style="color: gray; ">Lorem Ipsum is not simply random text. <br>It has room in a piece.</h4></div>
+        <div class="col-sm-4 feature-item" style=" padding-left: 100px; text-align: center;" > <div3><img src="Product2.png"></div3> <br><h3 style="color: blue;"> Contary to popular</h3> <h4 style="color: gray; " >Lorem Ipsum is not simply random text. <br>It has room in a piece.</h4></div>
+        <div class=" col-sm-4 feature-item"style=" padding-left: 100px; text-align: center;" ><div3> <img src="Product3.png"></div3><br><h3 style="color: blue; "> Contary to popular</h3> <h4 style="color: gray; " >Lorem Ipsum is not simply random text. <br>It has room in a piece.</h4></div>
+      </div>
+      
+       <br><br>
+      <div class="row mobile-mh">
+       
+     <div class="row" ></div>  <div class="cart-img"  style=" padding-left: 110px; text-align: center; "><h2 style = "color:gray">The Shopping Cart</h3><br> <img src="ShoppingCart.png"></div> <!-- тут был див2  -->
+      <div class="accordeon"  > <h2 style="color: gray; text-align: left; ">Some Bullet text here</h2>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js"></script>
+<div class="Buttons">
+<input type="button" value="Показать" onclick="showDiv();">
+<input type="button" value="Скрыть" onclick="hideDiv();"></div></div>
+
+
+<div id="les9_ex1"   style="display:none;"><h4 style="color: gray; text-align: left; padding-left: 155px;">The United States is considered to be one of the countries with the largest territories. It is situated in North America, an amazing continent with its beautiful nature and diverse climatic zones. 
+        The country’s landscape includes both high mountains and flat prairies. The weather conditions range from arctic cold in the northern parts to tropical heat in the southern parts. The main water bodies on the territory of the USA include  such rivers as Mississippi, Missouri, the Rio Grande. 
+        These rivers provide a sufficient amount of drinking water to supply the nation. They also serve as vital sources of irrigation for farming.</h4></div>
+      </div></div>
+      
+      <br> <br>
+      
+      <div class="row">
+        
+        <div class=" col-sm-12 msg-form" style="background-color:rgb(255, 255, 255); text-align: center;" >
+      <form name="form" style=" margin: 0 auto;
+      max-width: 50%;
+      padding: 30px 30px 6px 30px;
+      border: 1px solid rgba(42, 180, 235, 0.568);
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      background: rgba(174, 225, 245, 0.479); 
+     
+      overflow: hidden; " >
+		<h2>Форма обратной связи</h2>
+		<p> <div class="titles" >Ваше имя* </div> <input class="input" name="name" aria-describedby="name-format" required   type="text" placeholder="Имя"  > </p>
+        <p> <div class="titles" >Дата рождения*</div> <div><input class="input" style="width: 180px;" name="date" type="date"> </div>
+		 
+		<p> <div class="titles">Электронная почта* </div><input class="input" name="email" id= "email" type="email" pattern=".+@mail.ru|.+@gmail.com" placeholder="example@mail.ru"  title="Формат @mail.ru  @gmail.com" required> </p>
+		 
+		<p> <div class="titles">Телефон* </div> <input class="input" id="phone" type="text" onblur="checkPhone();" placeholder="xxx-xxx-xxx" required >
+            <div> <span id="phone_Check"></span> </p></div>
+		 
+		<p> <div class="titles">Укажите количество единиц товара*</div> <input class="input"  id="quantity" style="width: 180px;" type="number" min="1" max="10" required/> </p>
+		<p><input id="submit" value="Отправить" type="submit" /></p>
+	</form>
+</div>
+
+      <div class="row">
+        
+        <div class=" col-sm-12" style="background-color:rgb(255, 255, 255); text-align: center;" > <h4 style = "color:gray" >Copyright Ⓒ 2012-2013 </h4></div>
+      </div>
+||
+<div class="row mobile-reset">
+    <div class="wire-form" style="background-color:rgb(255, 255, 255); text-align: center;" >
+      <form name="wireForm">
+       
+        <input class="it" name="wireField" value="Кликни здесь:)" size="50" onfocus="if (!wireRunning) { startWire() }" type="text" style=" font-size:20px; color:#163961;border:#030a16 1px solid; padding:5px;margin: 5px">
+    </form>
+ </body>
+</html>
